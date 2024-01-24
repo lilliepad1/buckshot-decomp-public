@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://df4g8i1baak33"
+path="res://.godot/imported/psxdither.png-156a195b1e8dd59b2f00fee407a98297.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://GodotRetro/Other/Images/psxdither.png"
+dest_files=PackedStringArray("res://.godot/imported/psxdither.png-156a195b1e8dd59b2f00fee407a98297.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

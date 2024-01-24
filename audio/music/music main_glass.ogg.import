@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cidtny528dsau"
+path="res://.godot/imported/music main_glass.ogg-de0b6c399248b43d29226acf03f78af6.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/music/music main_glass.ogg"
+dest_files=PackedStringArray("res://.godot/imported/music main_glass.ogg-de0b6c399248b43d29226acf03f78af6.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

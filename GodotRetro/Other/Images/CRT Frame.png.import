@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b7ciqwsttyf1i"
+path="res://.godot/imported/CRT Frame.png-d90af3d39764073752b7b87b06bda556.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://GodotRetro/Other/Images/CRT Frame.png"
+dest_files=PackedStringArray("res://.godot/imported/CRT Frame.png-d90af3d39764073752b7b87b06bda556.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

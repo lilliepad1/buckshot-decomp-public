@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://6lohuattewpj"
+path="res://.godot/imported/music main second loop_room.ogg-aeb26764f83643336e706c7ac61a1aec.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/music/music main second loop_room.ogg"
+dest_files=PackedStringArray("res://.godot/imported/music main second loop_room.ogg-aeb26764f83643336e706c7ac61a1aec.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

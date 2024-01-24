@@ -1,0 +1,238 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="FontFile" uid="uid://bevwmh06qdgxr" path="res://main player/hydrogen.ttf" id="1"]
+[ext_resource type="Texture2D" uid="uid://dw1sjbgkgwqx6" path="res://main player/yuletide machine logo1.png" id="2"]
+[ext_resource type="Shader" path="res://main player/vignette.gdshader" id="3"]
+[ext_resource type="Shader" path="res://main player/posterization test.gdshader" id="4"]
+[ext_resource type="Material" uid="uid://1cc5f0tvkdn5" path="res://main player/mat_color precision.tres" id="5"]
+[ext_resource type="Material" uid="uid://cbt5cvhck0euq" path="res://main player/mat_dithering.tres" id="6"]
+[ext_resource type="Material" uid="uid://cdrlcynkcj7w6" path="res://main player/test shader.tres" id="7"]
+
+[sub_resource type="ShaderMaterial" id="1"]
+shader = ExtResource("3")
+shader_parameter/vignette_intensity = 0.075
+shader_parameter/vignette_opacity = 1.0
+shader_parameter/vignette_rgb = Color(0, 0, 0, 1)
+script = null
+
+[sub_resource type="ShaderMaterial" id="2"]
+shader = ExtResource("4")
+shader_parameter/SCREEN_WIDTH = 1920.0
+shader_parameter/RED_COMPONENT = 15.0
+shader_parameter/GREEN_COMPONENT = 15.0
+shader_parameter/BLUE_COMPONENT = 15.0
+script = null
+
+[node name="Camera" type="Camera3D"]
+transform = Transform3D(0.999455, -0.0137876, -0.0299864, -0.0239283, 0.323054, -0.946078, 0.0227314, 0.94628, 0.322548, 0.202415, 6.12824, 2.06749)
+current = true
+fov = 62.1
+
+[node name="viewblocker" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="press enter" type="Label" parent="viewblocker"]
+layout_mode = 0
+offset_left = -520.0
+offset_top = 222.0
+offset_right = -120.0
+offset_bottom = 277.0
+pivot_offset = Vector2(200, 11)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1")
+theme_override_font_sizes/font_size = 46
+text = "PRESS ENTER"
+horizontal_alignment = 1
+
+[node name="press enter2" type="Label" parent="viewblocker"]
+layout_mode = 0
+offset_left = -518.0
+offset_top = 219.0
+offset_right = -118.0
+offset_bottom = 274.0
+pivot_offset = Vector2(200, 11)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1")
+theme_override_font_sizes/font_size = 46
+text = "PRESS ENTER"
+horizontal_alignment = 1
+
+[node name="yuletide machine" type="Label" parent="viewblocker"]
+layout_mode = 0
+offset_left = -523.0
+offset_top = 193.0
+offset_right = -123.0
+offset_bottom = 248.0
+scale = Vector2(0.680002, 0.64)
+pivot_offset = Vector2(200, 11)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1")
+theme_override_font_sizes/font_size = 46
+text = "YULETIDE MACHINE"
+horizontal_alignment = 1
+
+[node name="yuletide machine2" type="Label" parent="viewblocker"]
+layout_mode = 0
+offset_left = -521.0
+offset_top = 191.0
+offset_right = -121.0
+offset_bottom = 246.0
+scale = Vector2(0.680002, 0.64)
+pivot_offset = Vector2(200, 11)
+theme_override_fonts/font = ExtResource("1")
+theme_override_font_sizes/font_size = 46
+text = "YULETIDE MACHINE"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="viewblocker"]
+layout_mode = 0
+offset_left = -465.0
+offset_top = -265.0
+offset_right = 511.0
+offset_bottom = 302.0
+color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="logo" type="TextureRect" parent="Control"]
+visible = false
+layout_mode = 0
+offset_left = -960.0
+offset_top = -635.0
+offset_right = 960.0
+offset_bottom = 445.0
+scale = Vector2(0.23019, 0.23019)
+pivot_offset = Vector2(960, 540)
+texture = ExtResource("2")
+
+[node name="post processing" type="Node" parent="."]
+
+[node name="vignette" type="Control" parent="post processing"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -3.05176e-05
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="post processing/vignette"]
+position = Vector2(482, 270)
+scale = Vector2(4.87, 2.75)
+copy_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="post processing/vignette/BackBufferCopy"]
+material = SubResource("1")
+offset_left = -99.0
+offset_top = -98.0
+offset_right = 101.0
+offset_bottom = 105.0
+rotation = 0.00159616
+mouse_filter = 2
+
+[node name="posterization test" type="Control" parent="post processing"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="post processing/posterization test"]
+position = Vector2(482, 270)
+scale = Vector2(4.87, 2.75)
+copy_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="post processing/posterization test/BackBufferCopy"]
+material = SubResource("2")
+offset_left = -99.0
+offset_top = -98.0
+offset_right = 102.0
+offset_bottom = 107.0
+mouse_filter = 2
+
+[node name="color precision" type="Control" parent="post processing"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="post processing/color precision"]
+position = Vector2(482, 270)
+scale = Vector2(4.87, 2.75)
+copy_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="post processing/color precision/BackBufferCopy"]
+material = ExtResource("5")
+offset_left = -98.9733
+offset_top = -98.1818
+offset_right = 865.027
+offset_bottom = 446.818
+mouse_filter = 2
+
+[node name="dithering" type="Control" parent="post processing"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="post processing/dithering"]
+visible = false
+position = Vector2(482, 270)
+scale = Vector2(4.87, 2.75)
+copy_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="post processing/dithering/BackBufferCopy"]
+visible = false
+material = ExtResource("6")
+offset_left = -98.9733
+offset_top = -98.1818
+offset_right = 865.027
+offset_bottom = 446.818
+mouse_filter = 2
+
+[node name="test" type="Control" parent="post processing"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="post processing/test"]
+position = Vector2(482, 270)
+scale = Vector2(4.87, 2.75)
+copy_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="post processing/test/BackBufferCopy"]
+material = ExtResource("7")
+offset_left = -98.9733
+offset_top = -98.1818
+offset_right = 865.027
+offset_bottom = 446.818
+mouse_filter = 2

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b1duf8fx5l6m5"
+path="res://.godot/imported/bayer8x8.png-b99b214d0a453da37b41f5b5b59598a0.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://GodotRetro/Other/Images/bayer8x8.png"
+dest_files=PackedStringArray("res://.godot/imported/bayer8x8.png-b99b214d0a453da37b41f5b5b59598a0.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

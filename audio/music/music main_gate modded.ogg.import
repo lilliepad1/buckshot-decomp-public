@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cxxvvffvov2w"
+path="res://.godot/imported/music main_gate modded.ogg-090b0385d0d49603356ff7ba36d0575f.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/music/music main_gate modded.ogg"
+dest_files=PackedStringArray("res://.godot/imported/music main_gate modded.ogg-090b0385d0d49603356ff7ba36d0575f.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

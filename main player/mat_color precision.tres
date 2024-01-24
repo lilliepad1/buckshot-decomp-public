@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://GodotRetro/Screen Shaders/Aditional Shaders/ColorPrecission.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/SCREEN_WIDTH = 1920.0
+shader_parameter/COLOR_FACTOR = 10.0
+script = null

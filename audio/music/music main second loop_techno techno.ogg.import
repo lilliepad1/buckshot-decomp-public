@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b23s6hous6dyf"
+path="res://.godot/imported/music main second loop_techno techno.ogg-bd81ce66f5cc7258ea47870daf78bb64.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/music/music main second loop_techno techno.ogg"
+dest_files=PackedStringArray("res://.godot/imported/music main second loop_techno techno.ogg-bd81ce66f5cc7258ea47870daf78bb64.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0

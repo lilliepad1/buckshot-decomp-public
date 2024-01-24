@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dygry4gihu7k"
+path="res://.godot/imported/bluenoise128x128.png-4f0eae80ab5c5f3a8c14d86f7924f7a5.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://GodotRetro/Other/Images/bluenoise128x128.png"
+dest_files=PackedStringArray("res://.godot/imported/bluenoise128x128.png-4f0eae80ab5c5f3a8c14d86f7924f7a5.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

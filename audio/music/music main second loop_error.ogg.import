@@ -1,0 +1,15 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://6h820w17dbdk"
+path="res://.godot/imported/music main second loop_error.ogg-ca98645617f9fbe99e13d468b0b736e5.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/music/music main second loop_error.ogg"
+dest_files=PackedStringArray("res://.godot/imported/music main second loop_error.ogg-ca98645617f9fbe99e13d468b0b736e5.oggvorbisstr")
+
+[params]
+
+dummy_value_ignore_me=0
