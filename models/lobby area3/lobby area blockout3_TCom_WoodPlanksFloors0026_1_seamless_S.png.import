@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cjo3qdq5cb2s"
+path.s3tc="res://.godot/imported/lobby area blockout3_TCom_WoodPlanksFloors0026_1_seamless_S.png-a668132829248f44f3cad04b7a64097a.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/lobby area3/lobby area blockout3_TCom_WoodPlanksFloors0026_1_seamless_S.png"
+dest_files=PackedStringArray("res://.godot/imported/lobby area blockout3_TCom_WoodPlanksFloors0026_1_seamless_S.png-a668132829248f44f3cad04b7a64097a.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

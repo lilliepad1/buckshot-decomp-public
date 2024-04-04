@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://GodotRetro/Screen Shaders/Aditional Shaders/B&W.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/contrast = 1.173
+shader_parameter/brightness = -0.038
+script = null

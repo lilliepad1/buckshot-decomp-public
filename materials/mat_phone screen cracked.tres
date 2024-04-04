@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://bc8inspwsu0s3" path="res://misc/phone screen backdrop cracked23.png" id="1"]
+
+[resource]
+transparency = 1
+shading_mode = 0
+albedo_texture = ExtResource("1")
+uv1_scale = Vector3(0.19, 0.19, 0.19)
+grow_amount = 1.515
+script = null

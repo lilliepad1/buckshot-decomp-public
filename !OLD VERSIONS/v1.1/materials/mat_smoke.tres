@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://0rx8ifs1wo0r" path="res://textures/smoke.png" id="1"]
+
+[resource]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0.054902)
+albedo_texture = ExtResource("1")
+billboard_mode = 1
+billboard_keep_scale = true
+script = null

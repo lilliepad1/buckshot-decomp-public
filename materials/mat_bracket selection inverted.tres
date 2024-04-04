@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+
+[ext_resource type="Texture2D" uid="uid://ciifdx3gf48u5" path="res://misc/bracket selection_square2 inverted.png" id="1"]
+
+[resource]
+transparency = 1
+albedo_texture = ExtResource("1")
+script = null

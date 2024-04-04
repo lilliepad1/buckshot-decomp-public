@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dwwavyerahrg1"
+path.s3tc="res://.godot/imported/tabletop compartment origins fix2_worn bare darkened.png-35cec5a051a08f25eb5a6fd04df273df.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/tabletop compartment origins2/tabletop compartment origins fix2_worn bare darkened.png"
+dest_files=PackedStringArray("res://.godot/imported/tabletop compartment origins fix2_worn bare darkened.png-35cec5a051a08f25eb5a6fd04df273df.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

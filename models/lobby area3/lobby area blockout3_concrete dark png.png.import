@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://2oro822mwab1"
+path.s3tc="res://.godot/imported/lobby area blockout3_concrete dark png.png-08261c4b55b78e2b0b8257758f45c9a7.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/lobby area3/lobby area blockout3_concrete dark png.png"
+dest_files=PackedStringArray("res://.godot/imported/lobby area blockout3_concrete dark png.png-08261c4b55b78e2b0b8257758f45c9a7.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

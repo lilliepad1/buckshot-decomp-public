@@ -14,3 +14,4 @@ If you wish to gain access to a repo that **does** have the files necessary to r
 ## Acknowledgements
 
  - [Buckshot Roulette (Original Game)](https://mikeklubnika.itch.io/buckshot-roulette)
+ - Thank you to [Stigstille](https://stigstille.uk/) for providing a steam key <3

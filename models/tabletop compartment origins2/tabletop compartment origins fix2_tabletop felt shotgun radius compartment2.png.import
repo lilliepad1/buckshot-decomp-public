@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bx14mq2jdto51"
+path.s3tc="res://.godot/imported/tabletop compartment origins fix2_tabletop felt shotgun radius compartment2.png-0efa722c4f72b2b1d7af2ceaba467dc7.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/tabletop compartment origins2/tabletop compartment origins fix2_tabletop felt shotgun radius compartment2.png"
+dest_files=PackedStringArray("res://.godot/imported/tabletop compartment origins fix2_tabletop felt shotgun radius compartment2.png-0efa722c4f72b2b1d7af2ceaba467dc7.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

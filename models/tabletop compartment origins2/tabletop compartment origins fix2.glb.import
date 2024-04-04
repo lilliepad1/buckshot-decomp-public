@@ -1,0 +1,16 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cbh47atl0vgt4"
+path="res://.godot/imported/tabletop compartment origins fix2.glb-95372bbd0ead0335b3df7a01fc25b16b.scn"
+
+[deps]
+
+source_file="res://models/tabletop compartment origins2/tabletop compartment origins fix2.glb"
+dest_files=PackedStringArray("res://.godot/imported/tabletop compartment origins fix2.glb-95372bbd0ead0335b3df7a01fc25b16b.scn")
+
+[params]
+
+dummy_value_ignore_me=0

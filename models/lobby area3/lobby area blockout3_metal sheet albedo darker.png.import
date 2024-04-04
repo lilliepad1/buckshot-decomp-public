@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b5vrauvb6hjgk"
+path.s3tc="res://.godot/imported/lobby area blockout3_metal sheet albedo darker.png-7d1e2dc2a1d2448f90bf5586a7023b38.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/lobby area3/lobby area blockout3_metal sheet albedo darker.png"
+dest_files=PackedStringArray("res://.godot/imported/lobby area blockout3_metal sheet albedo darker.png-7d1e2dc2a1d2448f90bf5586a7023b38.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

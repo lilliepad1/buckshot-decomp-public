@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cxtrfarpu4ycq"
+path.s3tc="res://.godot/imported/tabletop compartment origins fix2_tabletop felt shotgun radius with lines greyed out.png-6a4c559423f81446eb782e9dabb77f85.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/tabletop compartment origins2/tabletop compartment origins fix2_tabletop felt shotgun radius with lines greyed out.png"
+dest_files=PackedStringArray("res://.godot/imported/tabletop compartment origins fix2_tabletop felt shotgun radius with lines greyed out.png-6a4c559423f81446eb782e9dabb77f85.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0

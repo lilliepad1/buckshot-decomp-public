@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c5y8yfckl6375"
+path.s3tc="res://.godot/imported/tabletop compartment origins fix2_TCom_Wood_Worn2_512_normal.png-f83c22873d3c5cb0b13d1cede7646664.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://models/tabletop compartment origins2/tabletop compartment origins fix2_TCom_Wood_Worn2_512_normal.png"
+dest_files=PackedStringArray("res://.godot/imported/tabletop compartment origins fix2_TCom_Wood_Worn2_512_normal.png-f83c22873d3c5cb0b13d1cede7646664.s3tc.ctex")
+
+[params]
+
+dummy_value_ignore_me=0
