@@ -1,6 +1,6 @@
 # Buckshot Roulette Decompilation
 
-![](https://dcbadge.vercel.app/api/shield/435509065339240449)
+![](https://dcbadge.limes.pink/api/shield/435509065339240449)
 
 A full* decompilation of the game Buckshot Roulette by Mike Klubnika.
 I own no assets contained in this repo.
